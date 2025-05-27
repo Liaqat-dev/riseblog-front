@@ -7,7 +7,7 @@ import Suggestion from "@components/Suggestion.tsx";
 import PaginationBar from "@components/Pagination.tsx";
 import {useArticles} from "@context/articlesContext/useArticle.ts";
 import Loading from "@components/Loading.tsx";
-import {useLocation} from "react-router";
+// import {useLocation} from "react-router";
 
 interface Props {
     categories: string[];
@@ -63,7 +63,7 @@ function CategoryScroller({ categories,selectedTag,setSelectedTag}:Props) {
 
 
 function ForYouPage() {
-    const location = useLocation();
+    // const location = useLocation();
     // const{category}=location.state||null
     // console.log(category)
     const {articles,loadingArticles,pagination,fetchArticles, setArticles} = useArticles();

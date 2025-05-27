@@ -1,5 +1,4 @@
 import {FaGithub, FaInstagram, FaLinkedin, FaWhatsapp} from "react-icons/fa";
-import Loading from "@components/Loading.tsx";
 
 function About() {
     return (
