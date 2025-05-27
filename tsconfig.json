@@ -1,0 +1,45 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    // Required for path aliases to work
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@screens/*": [
+        "src/screens/*"
+      ],
+      "@cards": [
+        "./src/cards"
+      ],
+      "@api/*": [
+        "src/api/*"
+      ],
+      "@context/*": [
+        "context/*"
+      ],
+      "@constants": [
+        "constants/index.ts"
+      ]
+    },
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+.tiptap {
+  :first-child {
+    margin-top: 0;
+
+
+  }
+
+  pre {
+    background: #000000;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-family: 'JetBrainsMono', monospace;
+    margin: 0.2rem 0;
+    padding: 0.3rem 0.3rem;
+
+    code {
+      background: none;
+      color: inherit;
+      font-size: 0.8rem;
+      padding: 3px;
+
+
+    }
+  }
+  blockquote {
+    border-left: 3px solid gray;
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+  }
+
+  ul {
+    list-style-type: disc;
+    margin-left: 0.5rem;
+    padding-left: 10px;
+  }
+
+  ol {
+    list-style-type: decimal;
+    margin-left: 0.5rem;
+    padding-left: 5px;
+  }
+
+  li {
+    margin-left: 5px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    color: blue;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    color: blue;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    color: blue;
+  }
+  p {
+    font-size: 1.1rem;
+    color: #383839;
+    line-height: 1.6;
+  }
+
+
+}
+
+
+
